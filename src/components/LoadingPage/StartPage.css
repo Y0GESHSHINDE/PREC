@@ -1,13 +1,42 @@
-*{
+* {
    margin: 0px;
    padding: 0px;
 }
 
-#maindiv{
-   height: 100vh;
-
-}
-
-#ChildDiv{
+.bg-image {
+   background-image: url(/src/assets/CollageImges/PREC1.jpg);
+   background-size: cover;
    height: 100vh;
 }
+
+.bg-trans {
+   background-color: rgba(255, 255, 255, 0.4);
+}
+
+h1 {
+   font-weight: 700;
+   color: brown;
+}
+
+h5 {
+   font-weight: 700;
+
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+
+/* @media (min-width: 300px) and (max-width: 600px) {
+   .bg-image {
+      background-image: url(/src/assets/CollageImges/PREC2.jpg);
+      background-size: 100% 100%;
+   }
+}
+
+@media (min-width: 50px) and (max-width: 300px) {
+   .bg-image {
+      background-image: url(/src/assets/CollageImges/PREC3.jpg);
+      background-size: 100% 100%;
+   }
+} */

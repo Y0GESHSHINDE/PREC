@@ -4,11 +4,28 @@ import { Link } from 'react-router-dom'
 
 function StartPage() {
    return (
-      <div className="container-fluid  bg-main d-flex justify-content-center  " id='maindiv'>
-         <div className="row">
-            
-         </div>
+      <div className="container-fluid img-fluid bg-image align-content-center">
+      <div className="row d-flex justify-content-center">
+        <div className="col-12 text-center">
+          <div className="row d-flex justify-content-center">
+            <div className="col-12 col-md-6 col-sm-10">
+              <div className="card bg-trans rounded-5 p-0">
+                <div className="card-body">
+                  <h1>Wellcome To PREC</h1>
+                  <h5>ETC Department</h5>
+                  <div>
+                    <Link to={"/Login"} className="btn btn-primary m-1">Login</Link>
+                  </div>
+                  <div>
+                    <button className="btn btn-primary m-1"><a href="https://pravaraengg.org.in/index.html" target='_blank'>More About Prec</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
    )
 }
 
