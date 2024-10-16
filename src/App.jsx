@@ -1,10 +1,19 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import StarPage from './components/StarterPage/StarPage'
+import LoginPage from './components/Login_Page/LoginPage';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import StartPage from './components/LoadingPage/StartPage';
 function App() {
-  return (
+  return (  
     <>
-    <StarPage></StarPage>
+      <Router>
+        <Routes>
+          <Route path="/" element={<StartPage/>} />
+          <Route path="/Login" element={<LoginPage/>} />
+          <Route path="/Home" element={<><h1>Hello bos</h1></>} />
+        </Routes>
+
+      </Router>
     </>
   )
 }

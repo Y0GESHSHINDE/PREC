@@ -1,6 +1,7 @@
 import React from 'react'
-import './StartPage.css'
-function StarPage() {
+import './LoginPage.css'
+import { Link } from 'react-router-dom';
+function LoginPage() {
    return (
       <div className="row d-flex justify-content-center " id='mainDiv' >
          <div className="col-10 col-sm-8 col-md-8 col-lg-6 col-xl-4  " id='FormDiv'>
@@ -17,9 +18,9 @@ function StarPage() {
                         <option value="2">TE</option>
                         <option value="3">BE</option>x
                      </select>
-                     <button class="btn btn-primary form-control w-25 mb-4 fs-4 " type="submit">login</button>
+                     <Link class="btn btn-primary form-control w-25 mb-4 fs-4 " type="submit" to={"/home"}>login</Link>
                      <div><a href="">Forgot Password?</a></div>
-                     </form>
+                  </form>
                </div>
             </div>
          </div>
@@ -27,4 +28,4 @@ function StarPage() {
    )
 }
 
-export default StarPage;
+export default LoginPage;

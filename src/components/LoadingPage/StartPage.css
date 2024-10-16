@@ -1,0 +1,13 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+#maindiv{
+   height: 100vh;
+
+}
+
+#ChildDiv{
+   height: 100vh;
+}

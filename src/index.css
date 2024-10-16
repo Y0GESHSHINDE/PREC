@@ -7,7 +7,9 @@
     
 }
 
-
+.bg-main{
+      background-color:#f2e9e4 ;
+}
 .btn-primary{
       background-color: #335c67;
       border-color: #335c67;
