@@ -9,7 +9,7 @@ function LoginPage() {
                <div className="card col-12 text-center " id='CardBd'>
                   <div className=' card-body '>
                      <form className='  ' action="ok">
-                        <h1>Wellcome to PREC</h1>
+                        <h1>Etc Department</h1>
                         <h3 className='mt-3 text-dark'>Login</h3>
                         <input type="email" name="" id="" placeholder='Enter Your Email' className='form-control mb-4 mt-4 ' />
                         <input type="email" name="" id="" placeholder='Enter Your PassWord' className='form-control mb-4 ' />
@@ -20,7 +20,7 @@ function LoginPage() {
                            <option value="3">BE</option>x
                         </select>
                         <Link class="btn btn-primary form-control w-25 mb-4  " type="submit" to={"/home"}>login</Link>
-                        <div><a href="" className='text-dark'>Forgot Password?</a></div>
+                        <div><Link to={"/forgot"} href="" className='text-dark'>Forgot Password?</Link></div>
                      </form>
                   </div>
                </div>
