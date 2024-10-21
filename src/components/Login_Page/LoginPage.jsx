@@ -9,7 +9,7 @@ function LoginPage() {
                <div className="card col-12 text-center " id='CardBd'>
                   <div className=' card-body '>
                      <form className='  ' action="ok">
-                        <h1>Etc Department</h1>
+                        <h1 id='h1heading'>Etc Department</h1>
                         <h3 className='mt-3 text-dark'>Login</h3>
                         <input type="email" name="" id="" placeholder='Enter Your Email' className='form-control mb-4 mt-4 ' />
                         <input type="email" name="" id="" placeholder='Enter Your PassWord' className='form-control mb-4 ' />

@@ -11,7 +11,7 @@ function StartPage() {
             <div className="col-12 col-md-6 col-sm-10">
               <div className="card bg-trans rounded-5 p-0">
                 <div className="card-body mt-2 mb-2 ">
-                  <h1>Wellcome To PREC</h1>
+                  <h1 id='h1heading'>Wellcome To PREC</h1>
                   <h6>(electronics and telecommunication department)</h6>
                   <div>
                     <Link to={"/Login"} className="btn btn-primary m-1">Login</Link>

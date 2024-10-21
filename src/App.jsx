@@ -4,6 +4,8 @@ import LoginPage from './components/Login_Page/LoginPage';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import StartPage from './components/LoadingPage/StartPage';
 import ForgotPage from './components/ForgotPage/ForgotPage';
+import HeroCard from './components/cards/HeroCard';
+import HomePage from './components/HomePage/HomePage';
 function App() {
   return (  
     <>
@@ -12,7 +14,7 @@ function App() {
           <Route path="/" element={<StartPage/>} />
           <Route path="/Login" element={<LoginPage/>} />
           <Route path="/forgot" element={<ForgotPage/>} />
-          <Route path="/Home" element={<><h1>Hello boss</h1></>} />
+          <Route path="/Home" element={<HomePage/>} />
         </Routes>
 
       </Router>
