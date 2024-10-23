@@ -8,7 +8,7 @@ function HeroCard(props) {
                <h4>{props.Heading}</h4>
             </div>
             <div>
-               <button className='btn btn-danger'>{props.btnData}</button>
+               <button className='btn btn-success'>{props.btnData}</button>
             </div>
          </div>
       </div>
