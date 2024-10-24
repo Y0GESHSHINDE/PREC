@@ -6,6 +6,7 @@ import StartPage from './components/LoadingPage/StartPage';
 import ForgotPage from './components/ForgotPage/ForgotPage';
 import HeroCard from './components/cards/HeroCard';
 import HomePage from './components/HomePage/HomePage';
+import TeacherLogin from './components/TeacherLoginPage/TeacherLogin';
 function App() {
   return (  
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/Login" element={<LoginPage/>} />
           <Route path="/forgot" element={<ForgotPage/>} />
           <Route path="/home" element={<HomePage/>} />
+          <Route path="/teacherlogin" element={<TeacherLogin/>} />
         </Routes>
 
       </Router>
